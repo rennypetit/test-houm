@@ -1,8 +1,2 @@
-User-agent: AdsBot-Google
-Disallow:
-User-agent: Googlebot
-Disallow:
-User-agent: Googlebot-image
-Disallow:
-
-Sitemap:http://localhost:3000/sitemap.xml
+User-agent: *
+Sitemap:https://test-houm.vercel.app/sitemap.xml
