@@ -1,7 +1,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>http://localhost/3000</loc>
-  <lastmod>{Sun May 08 2022 17:22:50 GMT-0500}</lastmod>
+  <loc>https://test-houm.vercel.app</loc>
+  <lastmod>Mon May 09 2022 23:11:56 GMT-0500</lastmod>
   <priority>1.00</priority>
 </url>
 </urlset>
