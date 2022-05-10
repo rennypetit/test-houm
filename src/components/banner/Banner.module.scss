@@ -1,0 +1,12 @@
+@import '../../styles/variables';
+.container {
+  @include center;
+  @include container;
+  flex-direction: column;
+}
+.title {
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+}

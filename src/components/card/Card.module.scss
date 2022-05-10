@@ -1,0 +1,30 @@
+@import '../../styles/variables';
+.container {
+  box-shadow: 0 3px 6px #00000029;
+  border-radius: 10px;
+  text-align: center;
+  height: auto;
+  width: auto;
+}
+.image {
+  height: 50%;
+  img {
+    box-shadow: 0 3px 6px #00000029;
+    border-radius: 10px 10px 0 0;
+  }
+}
+.content {
+  padding: 20px;
+}
+.title {
+  margin-top: 0;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.description {
+  @include center;
+  font-size: 1.4rem;
+  margin: 0;
+  height: 100px;
+  overflow-y: auto;
+}

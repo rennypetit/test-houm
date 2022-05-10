@@ -1,0 +1,25 @@
+@import '../../styles/variables';
+.container {
+  background-color: white;
+  box-shadow: rgb(38 50 56 / 15%) 0px 4px 15px;
+  height: 72px;
+  padding: 8px 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 10;
+  img {
+    object-fit: contain;
+  }
+}
+.row {
+  @include container;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  a {
+    @include center;
+    height: 100%;
+  }
+}

@@ -1,0 +1,45 @@
+/*Nunito*/
+@font-face {
+  font-family: 'nunito-regular';
+  src: url('/fonts/nunito/regular.eot');
+  /* IE9 Compat Modes */
+  src:
+    /* Safari, Android, iOS */
+    url('/fonts/nunito/regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('/fonts/nunito/regular.woff2') format('woff2');
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/*variables*/
+// fonts
+$font_primary: 'nunito-regular';
+
+// colors
+$color_primary:#424242;
+$color_secondary:#263238;
+$color_tertiary:#ff452b;
+$color_quaternary: rgb(178, 48, 30);
+$color_footer:#fafafa;
+
+
+// mixin
+@mixin container {
+  margin: auto;
+  width: 80%;
+
+  @media (max-width: 1024px) {
+    max-width: 1920px;
+    width: 90%;
+  }
+}
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

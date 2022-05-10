@@ -1,0 +1,15 @@
+@import '../../styles/variables';
+.cards {
+  align-items: flex-start;
+  display: grid;
+  gap: 40px;
+  grid-gap: 40px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  justify-content: center;
+  padding: 20px 0;
+  width: 100%;
+}
+.observer{
+  height: 100px;
+  width: 100%;
+}

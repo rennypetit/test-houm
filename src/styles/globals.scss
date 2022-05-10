@@ -1,0 +1,66 @@
+@import 'variables';
+html,
+body {
+  color: $color_primary;
+  font-family: $font_primary;
+  font-size: 10px;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+}
+figure, menu {
+  margin: 0;
+  padding: 0;
+}
+span {
+  color: $color_tertiary;
+  display: block;
+}
+
+.container {
+  @include container;
+  padding-top: 90px;
+  min-height: calc(100vh - 20rem);
+  max-width: 1920px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.subTitle {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: left;
+  margin-top: 50px;
+}
+.titleNotFund{
+  text-align: center;
+  font-size: 2rem;
+  margin: 50px 0;
+}
+@media (min-width: 1024px) {
+  html,
+  body {
+    font-size: 11px;
+  }
+  .title {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,28 @@
+@import '../../styles/variables';
+.container {
+  @include center;
+  flex-direction: column;
+  margin: 50px 0;
+}
+.title {
+  border-bottom: 2px solid $color_tertiary;
+  font-size: 2.5rem;
+  padding-bottom: 5px;
+  text-align: left;
+  width: 100%;
+}
+.features {
+  width: 100%;
+  li {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+  a {
+    color:$color_tertiary;
+    text-decoration: underline;
+    &:hover {
+      color:$color_quaternary;
+    }
+
+  }
+}
